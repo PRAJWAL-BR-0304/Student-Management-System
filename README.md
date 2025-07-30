@@ -90,124 +90,124 @@ Student-Management-System/
 ```
 ---
 ##🐛 Troubleshooting
-ModuleNotFoundError: No module named 'active_link'
+-ModuleNotFoundError: No module named 'active_link'
 ```
 pip install django-active-link
 ```
-ImageField Error (Pillow not installed)
+-ImageField Error (Pillow not installed)
 ```
 pip install Pillow
 ```
-Static Files Not Loading (e.g., Bootstrap 404)
+-Static Files Not Loading (e.g., Bootstrap 404)
 ```
 python manage.py collectstatic
 ```
 ---
 ---
 ##📝 Development Guidelines
-Code Style
-Follow PEP8
+###Code Style
+-Follow PEP8
 
-Use Django’s best practices for views, models, and templates
+-Use Django’s best practices for views, models, and templates
 
-Keep apps modular and reusable
+-Keep apps modular and reusable
 
-Use environment variables for secrets (in .env)
+-Use environment variables for secrets (in .env)
 
-Commit Messages (Conventional Commits)
-feat: for new features
+-Commit Messages (Conventional Commits)
+-feat: for new features
 
-fix: for bug fixes
+-fix: for bug fixes
 
-docs: for documentation
+-docs: for documentation
 
-style: for styling only
+-style: for styling only
 
-refactor: for code refactoring
+-refactor: for code refactoring
 
-test: for test-related changes
+-test: for test-related changes
 
-chore: for maintenance tasks
+-chore: for maintenance tasks
 ---
 ---
 ##🧪 Testing
-To test the application manually:
+###To test the application manually:
 
-Run the dev server
+-Run the dev server
 
-Log in using the default credentials
+-Log in using the default credentials
 
-Navigate through all dashboards
+-Navigate through all dashboards
 
-Test features like student creation, leave approval, etc.
+-Test features like student creation, leave approval, etc.
 ---
 ---
 ##🌐 Deployment
-To deploy the application:
+###To deploy the application:
 
-Set ALLOWED_HOSTS in settings.py
+-Set ALLOWED_HOSTS in settings.py
 
-Collect static files:
+-Collect static files:
 ```
 python manage.py collectstatic
 ```
-Deploy using:
+-Deploy using:
 
-Gunicorn + Nginx (Linux)
+--Gunicorn + Nginx (Linux)
 
-Heroku
+--Heroku
 
-Render
+--Render
 
-Railway
+--Railway
 
-PythonAnywhere
+--PythonAnywhere
 ---
 ---
 ##🤝 Contributing
-Fork the repository
+-Fork the repository
 
-Create your feature branch
+-Create your feature branch
 
-Commit your changes
+-Commit your changes
 
-Push to your branch
+-Push to your branch
 
 Open a Pull Request
 ---
 ---
 ##🔒 Security
-Custom user model with permission-based routing
+-Custom user model with permission-based routing
 
-CSRF protection enabled
+-CSRF protection enabled
 
-Static/media file protection in production
+-Static/media file protection in production
 
 Passwords are hashed securely using Django’s authentication system
 ---
 ---
 ##🙏 Acknowledgments
-Django
+-Django
 
-Pillow
+-Pillow
 
-Bootstrap
+-Bootstrap
 
-Supabase (for future optional integrations)
+-Supabase (for future optional integrations)
 
-MetaMask (for reference in Web3-related modules)
+-MetaMask (for reference in Web3-related modules)
 ---
 ---
 ##🗺️ Roadmap
-Add notification system
+-Add notification system
 
-Integrate email alerts
+-Integrate email alerts
 
-Enhance dashboard analytics
+-Enhance dashboard analytics
 
-Add REST API endpoints
+-Add REST API endpoints
 
-Optional mobile app (React Native)
+-Optional mobile app (React Native)
 ---
 ---
 📧 Contact
