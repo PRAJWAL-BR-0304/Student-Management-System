@@ -127,7 +127,6 @@ python manage.py collectstatic
 
 -test: for test-related changes
 
--chore: for maintenance tasks
 ---
 ---
 ##🧪 Testing
@@ -139,7 +138,6 @@ python manage.py collectstatic
 
 -Navigate through all dashboards
 
--Test features like student creation, leave approval, etc.
 ---
 ---
 ##🌐 Deployment
@@ -161,7 +159,6 @@ python manage.py collectstatic
 
 --Railway
 
---PythonAnywhere
 ---
 ---
 ##🤝 Contributing
@@ -173,7 +170,6 @@ python manage.py collectstatic
 
 -Push to your branch
 
-Open a Pull Request
 ---
 ---
 ##🔒 Security
@@ -183,7 +179,6 @@ Open a Pull Request
 
 -Static/media file protection in production
 
-Passwords are hashed securely using Django’s authentication system
 ---
 ---
 ##🙏 Acknowledgments
@@ -195,7 +190,6 @@ Passwords are hashed securely using Django’s authentication system
 
 -Supabase (for future optional integrations)
 
--MetaMask (for reference in Web3-related modules)
 ---
 ---
 ##🗺️ Roadmap
@@ -207,7 +201,6 @@ Passwords are hashed securely using Django’s authentication system
 
 -Add REST API endpoints
 
--Optional mobile app (React Native)
 ---
 ---
 📧 Contact
