@@ -62,15 +62,15 @@ A robust Django-based web application for managing users and operations within a
 
 ---
 
-### 🧑‍💻 Installation
+🧑‍💻 Installation
+Clone the Repository
+Using HTTPS:
 
-#### Clone the Repository
-
-**Using HTTPS:**
-```bash
+bash
+Copy
+Edit
 git clone https://github.com/PRAJWAL-BR-0304/Student-Management-System.git
 cd Student-Management-System/student_management_system
-
 Using GitHub CLI:
 
 bash
@@ -83,15 +83,14 @@ bash
 Copy
 Edit
 python -m venv .venv
-Activate the virtual environment:
-
-PowerShell:
+Activate the Virtual Environment
+PowerShell (Windows):
 
 bash
 Copy
 Edit
 .\.venv\Scripts\activate
-CMD:
+CMD (Windows):
 
 bash
 Copy
@@ -112,7 +111,8 @@ bash
 Copy
 Edit
 python manage.py runserver
-Now open your browser and go to:
+Access the App
+Open your browser and visit:
 
 cpp
 Copy
@@ -126,7 +126,7 @@ Staff	staff@gmail.com	12345	Staff Panel
 Student	prathamuk@gmail.com	12345	Student Panel
 
 📁 Project Structure
-arduino
+bash
 Copy
 Edit
 Student-Management-System/
@@ -140,13 +140,13 @@ Student-Management-System/
 ├── README.md
 └── requirements.txt
 🛠 Optional: MySQL Setup
-If you're using MySQL instead of SQLite:
+If you're using MySQL instead of SQLite, run this in MySQL CLI:
 
 sql
 Copy
 Edit
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'root123';
-Then update DATABASES in settings.py accordingly.
+Then update the DATABASES section in settings.py accordingly.
 
 🐛 Troubleshooting
 ModuleNotFoundError: No module named 'active_link'
@@ -161,7 +161,7 @@ bash
 Copy
 Edit
 pip install Pillow
-Static Files Not Loading (e.g. Bootstrap 404)
+Static Files Not Loading (e.g., Bootstrap 404)
 
 bash
 Copy
@@ -175,7 +175,7 @@ Use Django’s best practices for views, models, and templates
 
 Keep apps modular and reusable
 
-Use environment variables for secrets (in .env)
+Use environment variables for secrets (e.g., in .env)
 
 Commit Messages (Conventional Commits)
 feat: for new features
@@ -195,9 +195,9 @@ chore: for maintenance tasks
 🧪 Testing
 To test the application manually:
 
-Run the dev server
+Run the development server
 
-Log in using test credentials
+Log in using the test credentials
 
 Navigate through dashboards and test features like student creation, leave approval, etc.
 
@@ -212,12 +212,22 @@ bash
 Copy
 Edit
 python manage.py collectstatic
-Use Gunicorn + Nginx (Linux) or deploy on Heroku, Render, Railway, etc.
+Deploy using:
+
+Gunicorn + Nginx (Linux servers)
+
+Heroku
+
+Render
+
+Railway
+
+PythonAnywhere
 
 🤝 Contributing
 Fork the repository
 
-Create your feature branch
+Create a feature branch
 
 Commit your changes
 
@@ -228,22 +238,22 @@ Open a Pull Request
 🔒 Security
 Custom user model with permission-based routing
 
-CSRF protection enabled by default
+CSRF protection enabled
 
-Static and media file protection in production
+Static/media file protection in production
 
-User passwords hashed securely
+Passwords securely hashed
 
 🙏 Acknowledgments
 Django
 
 Pillow
 
-MetaMask (for reference in other projects)
-
 Bootstrap
 
-Supabase (optional future integration)
+MetaMask (for Web3 integration in other projects)
+
+Supabase (optional integration in future)
 
 🗺️ Roadmap
 Add notification system
@@ -254,12 +264,6 @@ Enhance dashboard analytics
 
 Add REST API endpoints
 
-Optional mobile app interface (React Native)
+Optional mobile app (React Native)
 
-yaml
-Copy
-Edit
 
----
-
-Let me know if you'd like me to also generate a `requirements.txt` or `.env.example`, or even help publish this directly to
