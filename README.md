@@ -201,7 +201,8 @@ Add REST API endpoints
 Optional mobile app (React Native)
 
 📧 Contact
+``
 Created by Prajwal B R
 📬 Email: prajwalbr0304@gmail.com
-
+``
 
