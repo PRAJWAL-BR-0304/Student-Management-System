@@ -88,7 +88,8 @@ Student-Management-System/
 ├── README.md
 └── requirements.txt
 ```
-🐛 Troubleshooting
+---
+##🐛 Troubleshooting
 ModuleNotFoundError: No module named 'active_link'
 ```
 pip install django-active-link
@@ -101,7 +102,9 @@ Static Files Not Loading (e.g., Bootstrap 404)
 ```
 python manage.py collectstatic
 ```
-📝 Development Guidelines
+---
+---
+##📝 Development Guidelines
 Code Style
 Follow PEP8
 
@@ -125,8 +128,9 @@ refactor: for code refactoring
 test: for test-related changes
 
 chore: for maintenance tasks
-
-🧪 Testing
+---
+---
+##🧪 Testing
 To test the application manually:
 
 Run the dev server
@@ -136,8 +140,9 @@ Log in using the default credentials
 Navigate through all dashboards
 
 Test features like student creation, leave approval, etc.
-
-🌐 Deployment
+---
+---
+##🌐 Deployment
 To deploy the application:
 
 Set ALLOWED_HOSTS in settings.py
@@ -157,8 +162,9 @@ Render
 Railway
 
 PythonAnywhere
-
-🤝 Contributing
+---
+---
+##🤝 Contributing
 Fork the repository
 
 Create your feature branch
@@ -168,8 +174,9 @@ Commit your changes
 Push to your branch
 
 Open a Pull Request
-
-🔒 Security
+---
+---
+##🔒 Security
 Custom user model with permission-based routing
 
 CSRF protection enabled
@@ -177,8 +184,9 @@ CSRF protection enabled
 Static/media file protection in production
 
 Passwords are hashed securely using Django’s authentication system
-
-🙏 Acknowledgments
+---
+---
+##🙏 Acknowledgments
 Django
 
 Pillow
@@ -188,8 +196,9 @@ Bootstrap
 Supabase (for future optional integrations)
 
 MetaMask (for reference in Web3-related modules)
-
-🗺️ Roadmap
+---
+---
+##🗺️ Roadmap
 Add notification system
 
 Integrate email alerts
@@ -199,7 +208,8 @@ Enhance dashboard analytics
 Add REST API endpoints
 
 Optional mobile app (React Native)
-
+---
+---
 📧 Contact
 ``
 Created by Prajwal B R
