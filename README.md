@@ -32,12 +32,12 @@ A web-based role-based student management system built using Django. This system
 
 **Using HTTPS:**
 ```bash
-git clone https://github.com/PRAJWAL-BR-0304/Student-Management-System.git
+git clone https://github.com/yourusername/Student-Management-System.git
 cd Student-Management-System/student_management_system
 ```
 Using GitHub CLI:
 ```
-gh repo clone PRAJWAL-BR-0304/Student-Management-System
+gh repo clone yourusername/Student-Management-System
 cd Student-Management-System/student_management_system
 ```
 Set up the Virtual Environment:
