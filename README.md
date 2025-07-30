@@ -2,7 +2,16 @@
 
 A web-based role-based student management system built using Django. This system supports different panels for Admin, HOD, Staff, and Student users with complete authentication and dashboard features.
 
----
+<img width="940" height="470" alt="image" src="https://github.com/user-attachments/assets/a07cb185-69ca-40ac-b56c-0565a44b3a15" />
+
+<img width="940" height="465" alt="image" src="https://github.com/user-attachments/assets/568684ec-9868-4b9c-ab43-484d0e66bc46" />
+
+<img width="940" height="554" alt="image" src="https://github.com/user-attachments/assets/bf75ec38-ab71-4766-b68e-65e5f4f60255" />
+
+<img width="940" height="465" alt="image" src="https://github.com/user-attachments/assets/e15f5360-25ad-48bc-ad35-d2e7b4e9e47a" />
+
+---<img width="747" height="507" alt="Screenshot 2025-07-30 094539" src="https://github.com/user-attachments/assets/00e81772-6de1-4396-a5fa-d9d71e62dc6c" />
+
 
 ## ✨ Features
 
