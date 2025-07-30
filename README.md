@@ -10,8 +10,9 @@ A web-based role-based student management system built using Django. This system
 
 <img width="940" height="465" alt="image" src="https://github.com/user-attachments/assets/e15f5360-25ad-48bc-ad35-d2e7b4e9e47a" />
 
----<img width="747" height="507" alt="Screenshot 2025-07-30 094539" src="https://github.com/user-attachments/assets/00e81772-6de1-4396-a5fa-d9d71e62dc6c" />
+<img width="747" height="507" alt="Screenshot 2025-07-30 094539" src="https://github.com/user-attachments/assets/00e81772-6de1-4396-a5fa-d9d71e62dc6c" />
 
+---
 
 ## ✨ Features
 
